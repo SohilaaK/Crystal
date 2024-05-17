@@ -32,31 +32,33 @@ Follow the instructions on the Crystal for Windows page.
 Verify Installation:
 crystal --version
 
-** Clone the Repository **
+**Clone the Repository**
 1. Clone the Project Repository:
 git clone https://github.com/yourusername/image-search-engine.git
 cd image-search-engine
 
-** 1. Kemal Framework **
+**1. Kemal Framework**
 Add Kemal to your shard.yml file:
 
 dependencies:
   kemal:
     github: kemalcr/kemal
     
-** 2. Install Shards **
+**2. Install Shards**
 shards install
 
-** 3. Setup Environment Variables **
-Create a `.env` file in the root directory of the project and add your Unsplash API key:
+**3. Setup Environment Variables**
+
+Create a .env file in the root directory of the project and add your Unsplash API key:
 UNSPLASH_ACCESS_KEY=your_access_key_here
 
 ** How to Run **
+
 # Compile the Program:
-1. crystal build src/image_search_engine.cr
-2. Run the Program:
+**1. crystal build src/image_search_engine.cr**
+2. **Run the Program:**
 ./image_search_engine
-Search for Images:
+**Search for Images:**
 Enter a topic you want to search for when prompted. The program will fetch and display images related to the topic from Unsplash.
 
 # Code Overview
