@@ -15,7 +15,7 @@ This is an Image Search Engine application built using the Unsplash API and Crys
 
 # Installation
 
-**Setup Crystal Language**
+# Setup Crystal Language
 Install Crystal
 
 Follow the instructions for your operating system from the official Crystal website.
@@ -32,7 +32,7 @@ Follow the instructions on the Crystal for Windows page.
 Verify Installation:
 crystal --version
 
-**Clone the Repository**
+# Clone the Repository
 1. Clone the Project Repository:
 git clone https://github.com/yourusername/image-search-engine.git
 cd image-search-engine
