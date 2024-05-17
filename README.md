@@ -51,7 +51,7 @@ shards install
 Create a `.env` file in the root directory of the project and add your Unsplash API key:
 UNSPLASH_ACCESS_KEY=your_access_key_here
 
-# How to Run
+**How to Run**
 # Compile the Program:
 1. crystal build src/image_search_engine.cr
 2. Run the Program:
