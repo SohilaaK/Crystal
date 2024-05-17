@@ -15,7 +15,7 @@ This is an Image Search Engine application built using the Unsplash API and Crys
 
 # Installation
 
-#Setup Crystal Language
+**Setup Crystal Language**
 Install Crystal
 
 Follow the instructions for your operating system from the official Crystal website.
@@ -32,26 +32,26 @@ Follow the instructions on the Crystal for Windows page.
 Verify Installation:
 crystal --version
 
-# Clone the Repository
+** Clone the Repository **
 1. Clone the Project Repository:
 git clone https://github.com/yourusername/image-search-engine.git
 cd image-search-engine
 
-# 1. Kemal Framework
+** 1. Kemal Framework **
 Add Kemal to your shard.yml file:
 
 dependencies:
   kemal:
     github: kemalcr/kemal
     
-# 2. Install Shards
+** 2. Install Shards **
 shards install
 
-# 3. Setup Environment Variables
+** 3. Setup Environment Variables **
 Create a `.env` file in the root directory of the project and add your Unsplash API key:
 UNSPLASH_ACCESS_KEY=your_access_key_here
 
-**How to Run**
+** How to Run **
 # Compile the Program:
 1. crystal build src/image_search_engine.cr
 2. Run the Program:
